@@ -1,6 +1,6 @@
 {
   "engines": {
-  "node": "18.x"
+  "node": "24.x"
 },
   "name": "react-ecommerce-v2",
   "private": true,

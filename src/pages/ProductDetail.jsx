@@ -34,9 +34,9 @@ function ProductDetail() {
         </div>
       )}
       {isLoading == false && (
-        <div>
+        <div className="ml-10 overflow-hidden">
           <div className="bg-gray-100 w-full py-1 font-jost">
-            <div className=" max-w-[90%] lg-max-5xl sm:ml-10 md:ml-30 lg:ml-50 mx-auto flex items-center gap-1 text-sm">
+            <div className=" max-w-[90%] lg:max-w-5xl sm:ml-10 md:ml-30 lg:ml-50 mx-auto flex items-center gap-1 text-sm">
               <Link to="/">Home</Link>
               <span>
                 <svg
@@ -74,9 +74,9 @@ function ProductDetail() {
               <span className="font-semibold">Man cloth</span>
             </div>
           </div>
-          <div className="max-w-[90%] lg-max-5xl sm:ml-10 md:ml-30 lg:ml-50 mx-auto font-jost">
+          <div className="max-w-[90%] lg:max-w-5xl sm:ml-10 md:ml-30 lg:ml-50 mx-auto font-jost">
             <div className=" py-10 grid grid-cols-1 lg:grid-cols-2 ">
-              <div className="py-1 border h-120 w-110  border-gray-300">
+              <div className=" py-1 border lg:h-120 lg:w-110 md:h-105 md:w-95 h-90 w-80 border-gray-300">
                 <img
                   className="w-[80%] h-[80%] ml-10 mt-7 "
                   src={data.image}
@@ -125,7 +125,7 @@ function ProductDetail() {
                       </svg>
                     </button>
                   </div>
-                  <button className="bg-primary cursor-pointer px-8 py-2 text-white ">
+                  <button className="bg-black cursor-pointer px-8 py-2 text-white hover:bg-gray-800 ">
                     Get to cart
                   </button>
                   <button className="bg-yellow-500 cursor-pointer hover:bg-yellow-400 px-8 py-2 text-white ">

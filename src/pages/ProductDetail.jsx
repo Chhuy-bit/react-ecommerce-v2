@@ -34,7 +34,7 @@ function ProductDetail() {
         </div>
       )}
       {isLoading == false && (
-        <div className="ml-10 overflow-hidden">
+        <div className=" overflow-hidden">
           <div className="bg-gray-100 w-full py-1 font-jost">
             <div className=" max-w-[90%] lg:max-w-5xl sm:ml-10 md:ml-30 lg:ml-50 mx-auto flex items-center gap-1 text-sm">
               <Link to="/">Home</Link>
